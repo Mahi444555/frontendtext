@@ -1,0 +1,97 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    /* display: flex; */
+
+}
+
+.menu{
+    display: flex;
+    width: auto;
+    height: 50px;
+}
+.menu .parent{
+    background-color: pink;
+}
+
+.first-container{
+    /* display: flex; */
+    
+   background-color:rgb(165, 198, 124); 
+   border-radius: 5px;
+
+}
+.head h1{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+.btn1 button{
+    display: flex;
+    /* justify-content: center;
+    text-align: center; */
+    position: relative;
+    margin-left: 45%;
+    margin-bottom: 5px;
+}
+.para {
+ display: flex;
+ /* justify-content: center;*/
+ /* align-items: center; */
+ /* text-align: center; */
+}
+
+.para p{
+   justify-content: center;
+    text-align: center;
+    text-align: justify;
+}
+
+.cards{
+    display: flex;
+    /* direction: ; */
+    background-color: white;
+   
+    position: relative;
+    margin-left: 15px;
+
+}
+
+.head-two{
+    display: flex;
+    justify-content:center;
+    align-items: center;
+}
+.para2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.cards .first{
+    height: 450px;
+    width: 300px;
+    border: 1px solid black;
+    border-radius: 2px;
+    /* margin-left: 5px; */
+    /* padding-left: 10px; */
+}
+.first .img{
+    height: 150px;
+    width: 300px;
+}
+ 
+.cards .info{
+    display: flex;
+    text-align: start;
+
+}
+
+.btn11{
+   position: relative;
+   margin-left: 50%;
+}
